@@ -391,6 +391,58 @@ footer p {
 
 /* RESPONSIVIDADE */
 
+@media only screen and (min-width: 1020px) {
+  /* Ajustando a interface para ocupar melhor a tela */
+  .interface {
+      max-width: 1200px;
+  }
+
+  /* Ajustando a disposição dos itens do menu */
+  header nav ul li {
+      padding: 0 30px;
+  }
+
+  /* Ajuste na seção topo-do-site */
+  .topo-do-site .flex {
+      justify-content: space-between;
+      gap: 50px;
+  }
+
+  .topo-do-site h1 {
+      font-size: 48px;
+      line-height: 50px;
+  }
+
+  /* Ajuste na seção sobre */
+  section.sobre .flex {
+      gap: 80px;
+  }
+
+  .sobre .txt-sobre h2 {
+      font-size: 44px;
+  }
+
+  /* Ajuste no portfólio */
+  .ag-courses_item {
+      -ms-flex-preferred-size: calc(25% - 30px);
+      flex-basis: calc(25% - 30px);
+  }
+
+  /* Ajustando o carrossel para telas grandes */
+  .carousel-container {
+      width: 80vw;
+  }
+
+  .carousel img {
+      width: 180px;
+  }
+
+  /* Rodapé */
+  footer .flex {
+      justify-content: space-evenly;
+  }
+}
+
 @media only screen and (max-width: 979px) {
   .ag-courses_item {
     -ms-flex-preferred-size: calc(50% - 30px);
@@ -427,7 +479,7 @@ footer p {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   header .interface {
     flex-direction: column;
     align-items: center;
@@ -519,3 +571,43 @@ footer p {
     font-size: 14px;
   }
 }
+
+@media only screen and (max-width: 390px) {
+  /* Ajuste geral */
+  h2.titulo {
+    font-size: 28px;
+  }
+
+  .btn-contato button {
+    font-size: 16px;
+    padding: 8px 25px;
+  }
+
+  header nav ul li {
+    padding: 3px 0;
+  }
+
+  /* Ajuste do topo do site */
+  .topo-do-site h1 {
+    font-size: 32px;
+    line-height: 29px;
+  }
+
+  .topo-do-site .btn-contato button {
+    margin: 12px 0 ;
+  }
+
+  .topo-do-site .txt-topo-do-site p {
+    font-size: 18px;
+  }
+
+  .topo-do-site .img-topo-do-site img {
+    max-width: 100%;
+  }
+
+  /* Ajuste do Rodapé */
+  footer p {
+    font-size: 14px;
+  }
+}
+
