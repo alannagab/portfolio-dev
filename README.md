@@ -1,4 +1,5 @@
 # 📌 Meu Portfólio
+# https://portfolio-dev-pied-eight.vercel.app
 
 Este é o meu portfólio pessoal, onde apresento meus projetos, habilidades e informações de contato.
 Criado utilizando o modelo do Bruno Rodrigues: https://www.youtube.com/@InteliogiaDev, mas com um toque pessoal! 
@@ -31,7 +32,7 @@ Criado utilizando o modelo do Bruno Rodrigues: https://www.youtube.com/@Inteliog
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seuusuario/meu-portfolio.git
+   git clone https://github.com/alannagab/portfolio-dev.git
    ```
 2. Abra o arquivo `index.html` no navegador.
 
